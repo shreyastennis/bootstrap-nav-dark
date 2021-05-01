@@ -1,0 +1,88 @@
+:root{
+    --background: #343a40
+}
+
+body{
+    margin: 0%;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.logo-branding{
+    font-size: 1rem;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    font-weight: 400;font-size: 1.25rem;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-image{
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 10px;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+nav{
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--background);
+    text-align: center;
+    width: 100%;
+    text-align: left;
+    background: var(--background);
+    padding: 0.6rem 1rem;
+    align-items: center;
+}
+
+nav ul{
+    white-space: nowrap;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-left: 4em;
+}
+
+nav li{
+    /* margin-bottom: 1em; */
+    /* margin-left: 1em; */
+    padding: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+nav .sub-links{
+    color:rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav .sub-links.active{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav .sub-links.active:hover{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav .sub-links:hover{
+    color:rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    font-size: 1rem;
+}
